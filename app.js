@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/users", (req, res) => {
+app.get("/api/users", (req, res) => {
   return res.status(200).send("Users Route Available");
 });
 
