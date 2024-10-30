@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/api/users", (req, res) => {
-  res.send("New User Route Available");
+app.get("users", (req, res) => {
+  return res.status(200).send("Users Route Available");
 });
 
 app.listen(port, () => {
