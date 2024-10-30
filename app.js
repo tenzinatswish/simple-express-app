@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/users", (req, res) => {
+app.get("/api/users", (req, res) => {
   res.send("New User Route Available");
 });
 
