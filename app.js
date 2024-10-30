@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/users", (req, res) => {
+  res.send("New User Route Available");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
